@@ -59,216 +59,514 @@
 
 具体格式如下所示：
 
-{ 
+```
+{
 
-"beaconScanList": [
+    "beaconScanList": [
 
-{ 
+        {
 
-"beaconList": [
+            "beaconList": [
 
-{ 
+                {
 
-"major": 10085, 
+                    "major": 10085,
 
-"minor": 59810, 
+                    "minor": 59810,
 
-"rssi": -57, 
+                    "rssi": -57,
 
-"txPower": -59, 
+                    "txPower": -59,
 
-"mac": "AC:23:3F:24:E7:3F", 
+                    "mac": "AC:23:3F:24:E7:3F",
 
-"uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+                    "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
 
-},
+                },
 
-{ 
+                {
 
-"major": 50211, 
+                    "major": 50211,
 
-"minor": 1018, 
+                    "minor": 1018,
 
-"rssi": -60, 
+                    "rssi": -60,
 
-"txPower": -59, 
+                    "txPower": -59,
 
-"mac": "C2:02:BE:00:07:63", 
+                    "mac": "C2:02:BE:00:07:63",
 
-"uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+                    "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
 
-}
+                }
 
-],"locPoint": {"x": 12686092.6611092,"y": 2559453.87022379,"fnum": 
+            ], "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
 
-2}, 
+                    2
+            },
 
-"timestamp": 1615261767824
+            "timestamp": 1615261767824
 
-},
+        },
 
-{ 
+        {
 
-"beacons": [
+            "beacons": [
 
-{ 
+                {
 
-"major": 10085, 
+                    "major": 10085,
 
-"minor": 59810, 
+                    "minor": 59810,
 
-"rssi": -60
+                    "rssi": -60
 
-},
+                },
 
-{ 
+                {
 
-"major": 50211, 
+                    "major": 50211,
 
-"minor": 1018, 
+                    "minor": 1018,
 
-"rssi": -61
+                    "rssi": -61
 
-}
+                }
 
-],
+            ],
 
-"locPoint": {"x": 12686092.6611092,"y": 2559453.87022379,"fnum": 
+            "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
 
-2}, 
+                    2
+            },
 
-"timestamp": 1615261768824
+            "timestamp": 1615261768824
 
-}
+        }
 
-],
+    ],
 
-"startPoint": {"x":12629799.73,"y":2580119.303,"fnum":2,"bid":"10007"}, 
+        "startPoint": { "x": 12629799.73, "y": 2580119.303, "fnum": 2, "bid": "10007" },
 
-"accelerationList": ["x, y, z, timestamp", "x, y, z, timestamp"], 
+    "accelerationList": ["x, y, z, timestamp", "x, y, z, timestamp"],
 
-"rotationRateList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+        "rotationRateList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+    
+    timestamp"], 
+    
+    "orientationList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+    
+    timestamp"], 
+    
+    "...": "..."
+    
+    } {
 
-timestamp"], 
+    "beaconScanList": [
 
-"orientationList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+        {
 
-timestamp"], 
+            "beaconList":
 
-"...": "..."
+                [
 
-}{ 
+                    {
 
-"beaconScanList": [ 
+                        "major": 10085,
 
-{ 
+                        "minor": 59810,
 
-"beaconList": 
+                        "rssi": -57,
 
-[ 
+                        "txPower": -59,
 
-{ 
+                        "mac": "AC:23:3F:24:E7:3F",
 
-"major": 10085, 
+                        "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
 
-"minor": 59810, 
+                    },
 
-"rssi": -57, 
+                    {
 
-"txPower": -59, 
+                        "major": 50211,
 
-"mac": "AC:23:3F:24:E7:3F", 
+                        "minor": 1018,
 
-"uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825" 
+                        "rssi": -60,
 
-}, 
+                        "txPower": -59,
 
-{ 
+                        "mac": "C2:02:BE:00:07:63",
 
-"major": 50211, 
+                        "uuid":
 
-"minor": 1018, 
+                            "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
 
-"rssi": -60, 
+                    }
 
-"txPower": -59, 
+                ],
 
-"mac":"C2:02:BE:00:07:63", 
+            "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
 
-"uuid": 
+                    2
+            },
 
-"FDA50693-A4E2-4FB1-AFCF-C6EB07647825" 
+            "timestamp": 1615261767824
 
-}
+        },
 
-], 
+        {
 
-"locPoint": {"x": 12686092.6611092,"y": 2559453.87022379,"fnum": 
+            "beacons": [
 
-2}, 
+                {
 
-"timestamp": 1615261767824 
+                    "major":
 
-}, 
+                        10085,
 
-{ 
+                    "minor": 59810,
 
-"beacons": [ 
+                    "rssi":
 
-{ 
+                        -60
 
-"major": 
+                },
 
-10085, 
+                {
 
-"minor": 59810, 
+                    "major": 50211,
 
-"rssi": 
+                    "minor": 1018,
 
--60 
+                    "rssi":
 
-}, 
+                        -61
 
-{ 
+                }
 
-"major": 50211, 
+            ],
 
-"minor": 1018, 
+            "locPoint": {
+                "x":
 
-"rssi": 
+                    12686092.6611092, "y": 2559453.87022379, "fnum": 2
+            },
 
--61 
+            "timestamp":
 
-} 
+                1615261768824
 
-], 
+        }
 
-"locPoint": {"x": 
+    ],
 
-12686092.6611092,"y": 2559453.87022379,"fnum": 2}, 
+        "startPoint":
 
-"timestamp": 
+    { "x": 12629799.73, "y": 2580119.303, "fnum": 2, "bid": "10007" },
 
-1615261768824 
+    "accelerationList":
 
-} 
+    ["x, y, z, timestamp", "x, y, z, timestamp"],
 
-], 
+        "rotationRateList": ["alpha, beta, gama, 
+    
+    timestamp", "alpha, beta, gama, timestamp"], 
+    
+    "orientationList": ["alpha, beta, gama, 
+    
+    timestamp", "alpha, beta, gama, timestamp"], 
+    
+    "...": "..."}
+```
 
-"startPoint": 
 
-{"x":12629799.73,"y":2580119.303,"fnum":2,"bid":"10007"}, 
 
-"accelerationList": 
+**Data Format**
 
-["x, y, z, timestamp", "x, y, z, timestamp"], 
+Data file name format: map number + user id + year, month, day, hour, minute, second
 
-"rotationRateList": ["alpha, beta, gama, 
 
-timestamp", "alpha, beta, gama, timestamp"], 
 
-"orientationList": ["alpha, beta, gama, 
+The collected data is saved in the form of JSON object. The general structure is as follows:
 
-timestamp", "alpha, beta, gama, timestamp"], 
+- **beaconScanList**: Indicates the beacon scan list, each element in the list represents a beacon scan data:
 
-"...": "..."}
+   - **beaconList**: The list of beacons scanned this time, each element in the list represents a
+
+     beacon:
+
+     - **major**: major number
+     - **minor**: minor number
+     - **rssi**: signal strength value
+     - **mac**: MAC (optional)
+     - **uuid**: UUID (optional)
+     - **locPoint**: The location point corresponding to this scan
+
+   - **timestamp**: The timestamp of this scan
+
+-
+
+- **startPoint**: Record the starting point of data collection manually marked on the map by the user (optional)
+
+- **accelerationList**: Three-axis accelerometer data list, record the accelerometer readings on the three axes of x, y, z (m/s²)
+
+- **rotationRateList**: Gyroscope data list, record angular velocity on three axes
+
+- **orientationList**: A list of azimuth angle data, where alpha is the orientation (the angle between the current compass direction of the device and the magnetic north direction. If the upper edge of the device faces magnetic north, the azimuth is 0 degrees; if the upper edge faces South, the azimuth is 180 degrees. Similarly, if the upper edge faces east, the azimuth is 90 degrees; if the upper edge faces west, the azimuth is 270 degrees.)
+
+- more other data...
+
+
+
+**In addition, other data fields can be added to the outermost layer of the JSON object as needed. The specific format is as follows:**
+
+The collected data is saved in the form of JSON object. The general structure is as follows:
+
+- beaconScanList: Indicates the beacon scan list, each element in the list represents a beacon scan data:
+- beaconList: The list of beacons scanned this time, each element in the list represents a beacon:
+- major: major number
+- minor: minor number
+- rssi: signal strength value
+- mac: MAC (optional)
+- uuid: UUID (optional)
+- locPoint: The locating point corresponding to this scan
+- timestamp: The timestamp of this scan
+- startPoint:: record the start point of data collection manually marked on the map by the user (optional) accelerationList: a list of three-axis accelerometer data, record the accelerometer readings on the three axes of x, y, and z (m/s²)
+- rotationRateList: gyroscope data list, record angular velocity on three axes
+- orientationList: Azimuth data list, where alpha is the orientation (the angle between the current compass direction of the device and the magnetic north. If the upper edge of the device faces magnetic north, the azimuth is 0 degrees; if the upper edge faces south, the azimuth The angle is 180 degrees. Similarly, if the upper edge faces east, the azimuth is 90 degrees; if the upper edge faces west, the azimuth is 270 degrees.)
+- more other data...
+
+
+
+In addition, other data fields can be added to the outermost layer of the JSON object as needed.
+
+The specific format is as follows:
+
+```
+{
+
+    "beaconScanList": [
+
+        {
+
+            "beaconList": [
+
+                {
+
+                    "major": 10085,
+
+                    "minor": 59810,
+
+                    "rssi": -57,
+
+                    "txPower": -59,
+
+                    "mac": "AC:23:3F:24:E7:3F",
+
+                    "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+
+                },
+
+                {
+
+                    "major": 50211,
+
+                    "minor": 1018,
+
+                    "rssi": -60,
+
+                    "txPower": -59,
+
+                    "mac": "C2:02:BE:00:07:63",
+
+                    "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+
+                }
+
+            ], "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
+
+                    2
+            },
+
+            "timestamp": 1615261767824
+
+        },
+
+        {
+
+            "beacons": [
+
+                {
+
+                    "major": 10085,
+
+                    "minor": 59810,
+
+                    "rssi": -60
+
+                },
+
+                {
+
+                    "major": 50211,
+
+                    "minor": 1018,
+
+                    "rssi": -61
+
+                }
+
+            ],
+
+            "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
+
+                    2
+            },
+
+            "timestamp": 1615261768824
+
+        }
+
+    ],
+
+        "startPoint": { "x": 12629799.73, "y": 2580119.303, "fnum": 2, "bid": "10007" },
+
+    "accelerationList": ["x, y, z, timestamp", "x, y, z, timestamp"],
+
+        "rotationRateList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+    
+    timestamp"], 
+    
+    "orientationList": ["alpha, beta, gama, timestamp", "alpha, beta, gama, 
+    
+    timestamp"], 
+    
+    "...": "..."
+    
+    } {
+
+    "beaconScanList": [
+
+        {
+
+            "beaconList":
+
+                [
+
+                    {
+
+                        "major": 10085,
+
+                        "minor": 59810,
+
+                        "rssi": -57,
+
+                        "txPower": -59,
+
+                        "mac": "AC:23:3F:24:E7:3F",
+
+                        "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+
+                    },
+
+                    {
+
+                        "major": 50211,
+
+                        "minor": 1018,
+
+                        "rssi": -60,
+
+                        "txPower": -59,
+
+                        "mac": "C2:02:BE:00:07:63",
+
+                        "uuid":
+
+                            "FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+
+                    }
+
+                ],
+
+            "locPoint": {
+                "x": 12686092.6611092, "y": 2559453.87022379, "fnum":
+
+                    2
+            },
+
+            "timestamp": 1615261767824
+
+        },
+
+        {
+
+            "beacons": [
+
+                {
+
+                    "major":
+
+                        10085,
+
+                    "minor": 59810,
+
+                    "rssi":
+
+                        -60
+
+                },
+
+                {
+
+                    "major": 50211,
+
+                    "minor": 1018,
+
+                    "rssi":
+
+                        -61
+
+                }
+
+            ],
+
+            "locPoint": {
+                "x":
+
+                    12686092.6611092, "y": 2559453.87022379, "fnum": 2
+            },
+
+            "timestamp":
+
+                1615261768824
+
+        }
+
+    ],
+
+        "startPoint":
+
+    { "x": 12629799.73, "y": 2580119.303, "fnum": 2, "bid": "10007" },
+
+    "accelerationList":
+
+    ["x, y, z, timestamp", "x, y, z, timestamp"],
+
+        "rotationRateList": ["alpha, beta, gama, 
+    
+    timestamp", "alpha, beta, gama, timestamp"], 
+    
+    "orientationList": ["alpha, beta, gama, 
+    
+    timestamp", "alpha, beta, gama, timestamp"], 
+    
+    "...": "..."}
+```
+
